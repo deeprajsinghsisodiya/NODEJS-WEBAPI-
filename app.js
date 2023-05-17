@@ -20,7 +20,7 @@ app.post('/', (req, res) => {
   // Process the skills as needed
   console.log(skills);
 
-  res.json(skills);
+  res.json(j);
 });
 
 app.listen(port, () => {
